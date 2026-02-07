@@ -1,0 +1,81 @@
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lib/Screens/Authentication_/LoginScreen_.dart
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lib/Screens/Authentication_/LoginScreen_.dart
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git commit -m "Changing 25-04"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lib/Screens/Authentication_/LoginScreen_.dart
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git add .
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git commit -m "Changing 25-04"
+[main c26df30] Changing 25-04
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$ git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 556 bytes | 556.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/yashraj56/MinorProject_ChatUp.git
+   60e6a0b..c26df30  main -> main
+branch 'main' set up to track 'origin/main'.
+
+abhishek@DESKTOP-AHLMEJ5 MINGW64 ~/StudioProjects/MinorProject (main)
+$

@@ -1,0 +1,39 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatrealnotfake",
+          "appId": "1:546700769790:android:3c5348ff54192e0e30a8af",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatrealnotfake",
+          "configurations": {
+            "android": "1:546700769790:android:3c5348ff54192e0e30a8af",
+            "ios": "1:546700769790:ios:09ed6f2e411866b430a8af",
+            "macos": "1:546700769790:ios:09ed6f2e411866b430a8af",
+            "web": "1:546700769790:web:68564ad0a3e148f130a8af",
+            "windows": "1:546700769790:web:fbe2a14d00da11ee30a8af"
+          }
+        }
+      }
+    }
+  }
+}
